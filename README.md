@@ -60,25 +60,25 @@ Blue Mountain Development is a software and web development business based in Ca
 			I have not tested colours #b3c7f7 and #8babf1  as I don't intend on using them in my design. Based on the below results I will aim where possible to use the the darker end of my colour spectrum in areas where text is located as much as possible to try and enhance accessibility as much as possible whilst trying to minimise the effects on the aesthetics of the website. 
 
 			[https://venngage.com/tools/accessible-color-palette-generator#colorGenerator](https://venngage.com/tools/accessible-color-palette-generator#colorGenerator)
-			<img src="" alt="">
+            <img src="./assets/images/fullcolourpalette.png" alt="image showing full colour palette, with accessibility contrast scores">
 			
 			[https://coolors.co/contrast-checker/ffffff-0073e6](https://coolors.co/contrast-checker/ffffff-0073e6)
-			<img src="" alt="">
+			<img src="./assets/images/0073e6contrast.png" alt="image showing accessibility contrast score for bacgkround colour #0073e6 blue with white text">
 
 			[https://coolors.co/contrast-checker/ffffff-0461cf](https://coolors.co/contrast-checker/ffffff-0461cf)
-			<img src="" alt="">
+			<img src="./assets/images/0461cfcontrast.png" alt="image showing accessibility contrast score for backgrounf colour #0461cf blue with white text">
 
 			[https://coolors.co/contrast-checker/ffffff-054fb9](https://coolors.co/contrast-checker/ffffff-054fb9)
-			<img src="" alt="">
+			<img src="./assets/images/054fb9contrast.png" alt="image showing accessibility contrast score for background colour #054fb9 with white text">
 
 			[https://coolors.co/contrast-checker/0073e6-ffffff](https://coolors.co/contrast-checker/0073e6-ffffff)
-			<img src="" alt="">
+			<img src="./assets/images/0073e6invertedcontrast.png" alt="image showing accessibility contrast score for background colour white with #0073e6 blue background">
 			
 			[https://coolors.co/contrast-checker/0461cf-ffffff](https://coolors.co/contrast-checker/0461cf-ffffff)
-			<img src="" alt="">
+			<img src="./assets/images/0461cfinvertedcontrast.png" alt="image showing accessibility contrast score for background colour white with #0461cf blue background">
 
 			[https://coolors.co/contrast-checker/ffffff-054fb9](https://coolors.co/contrast-checker/ffffff-054fb9)
-			<img src="" alt="">
+			<img src="./assets/images/054fb9invertedcontrast.png" alt="image showing accessibility contrast score for background colour white with #054fb9 blue background">
 
     -   #### Typography
         -   ...
