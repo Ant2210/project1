@@ -1,4 +1,4 @@
-<h1 align="center">Blue Mountain Development</h1>
+<h1 align="center" id="title">Blue Mountain Development</h1>
 
 [View the live project here.](https://google.com)
 
@@ -12,17 +12,14 @@ Blue Mountain Development is a software and web development business based in Ca
 
 * [User Experience (UX)](#user-experience-ux)
 	* [User Stories](#user-stories)
-	* [First Time Visitor Goals](#first-time-visitor-goals)
-	* [Returning Visitor Goals](#returning-visitor-goals)
-	* [Frequent User Goals](#frequent-user-goals)
-* [Design](#design)
-	* [Colour Scheme](#colour-scheme)
-		* [Colour Psychology](#colour-psychology)
-		* [Colour Accessibility](#colour-accessibility)
-		* [Colour Palette and Results](#colour-palette-and-results)
-    * [Typography](#typography)
-    * [Imagery](#imagery)
-* [Wireframes](#wireframes)
+        * [First Time Visitor Goals](#first-time-visitor-goals)
+        * [Returning Visitor Goals](#returning-visitor-goals)
+        * [Frequent User Goals](#frequent-user-goals)
+    * [Design](#design)
+        * [Colour Scheme](#colour-scheme)
+        * [Typography](#typography)
+        * [Imagery](#imagery)
+    * [Wireframes](#wireframes)
 
 ## User Experience (UX) 
 
@@ -101,11 +98,20 @@ Blue Mountain Development is a software and web development business based in Ca
 
     -   Contact Us Page Wireframe - 
 
-## Features
+*   ### Features
 
--  
--
--   
+    -  
+    -
+    -   
+
+*   ### Accessibility
+
+    -  
+    -
+    -  
+
+[Back to top](#title)  
+[Back to contents](#contents)
 
 ## Technologies Used
 
@@ -121,6 +127,9 @@ Blue Mountain Development is a software and web development business based in Ca
 1. -
 1. -
 1. -
+
+[Back to top](#title)  
+[Back to contents](#contents)
 
 ## Testing
 
@@ -196,6 +205,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   
 -   
 
+[Back to top](#title)  
+[Back to contents](#contents)
+
 ## Deployment
 
 ### GitHub Pages
@@ -220,6 +232,9 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 2. 
 3. ...
 
+[Back to top](#title)  
+[Back to contents](#contents)
+
 ## Credits
 
 ### Code
@@ -243,3 +258,6 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 -
 -
 -
+
+[Back to top](#title)  
+[Back to contents](#contents)
