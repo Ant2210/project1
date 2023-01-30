@@ -20,6 +20,9 @@ Blue Mountain Development is a software and web development business based in Ca
 		* [Colour Psychology](#colour-psychology)
 		* [Colour Accessibility](#colour-accessibility)
 		* [Colour Palette and Results](#colour-palette-and-results)
+    * [Typography](#typography)
+    * [Imagery](#imagery)
+* [Wireframes](#wireframes)
 
 ## User Experience (UX) 
 
@@ -81,7 +84,12 @@ Blue Mountain Development is a software and web development business based in Ca
 			<img src="./assets/images/054fb9invertedcontrast.png" alt="image showing accessibility contrast score for background colour white with #054fb9 blue background">
 
     -   #### Typography
-        -   ...
+        I read an article published by Google to help me select my fonts which can be found at the following link [Choosing Web Fonts: A Beginner’s Guide](https://design.google/library/choosing-web-fonts-beginners-guide/). I also read an article from w3schools.com to help me decide on a fallback font should my chosen Google font not be rendered in a users browser. That article can be found at the following link [Best Web Safe Fonts for HTML and CSS](https://www.w3schools.com/cssref/css_websafe_fonts.php).
+
+        - My main font will be Montserrat. This font looks good as small, medium and large sized font, so caters to accessibility. It was also updated in November 2017 and developed Cyrillic support giving a wide array of languages it can be translated into. 
+
+        - For my fallback font I have opted for the Arial font, part of the sans-serif family. It is the most widely used font for both online and printed media. Arial is said to be one of the safest web fonts, and is available on all major operating systems. 
+
     -   #### Imagery
         -   ...
 
