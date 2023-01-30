@@ -1,4 +1,4 @@
-<h1 align="center">Website Name</h1>
+<h1 align="center">Blue Mountain Development</h1>
 
 [View the live project here.](https://google.com)
 
