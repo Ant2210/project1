@@ -24,6 +24,7 @@ body {
 
 /* Change burger icon colour -> https://www.youtube.com/watch?v=SPoy8_ZtvKs */
 .navbar-toggler {
+
   filter: invert(100%);
 }
 
@@ -58,11 +59,11 @@ body {
 .hvr-underline-from-center:hover:before,
 .hvr-underline-from-center:focus:before,
 .hvr-underline-from-center:active:before {
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
   left: 0;
   right: 0;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
   text-shadow: 0.5px 0.5px #ffff;
-
 }
