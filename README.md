@@ -92,11 +92,13 @@ Blue Mountain Development is a software and web development business based in Ca
 
 *   ### Wireframes
 
-    -   Home Page Wireframe -
+    Due to the large image sizes and the requirement to zoom into certain elements of the wireframes I haven't embedded them and they can be downloaded from the below links.
 
-    -   Mobile Wireframe - 
+    -   Desktop Wireframe can be found at the following link - [Desktop Wireframe](./assets/images/desktopwireframe.png)
 
-    -   Contact Us Page Wireframe - 
+    -   Tablet Wireframe can be found at the following link - [Tablet Wireframe](./assets/images/tabletwireframe.png)
+
+    -   Mobile Wireframe can be found at the following link - [Mobile Wireframe](./assets/images/mobilewireframe.png)
 
 *   ### Features
 
