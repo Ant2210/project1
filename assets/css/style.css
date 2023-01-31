@@ -63,6 +63,7 @@ body {
   right: 0;
 }
 
+/* Text "glow" on hover - See bugs section for the reason this was used over bold text */
 .navbar-nav .nav-item .nav-link:hover {
-  text-shadow: 0.5px 0.5px #ffff, -0.5px -0.5px #ffff, -0.5px 0.5px #ffff, 0.5px -0.5px #ffff;
+  text-shadow: 0px 0px 2.5px #ffff;
 }
