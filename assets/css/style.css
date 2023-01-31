@@ -1,23 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 
-/* NAVBAR */
+
+/***** GLOBAL STYLES *****/
+/* Sets the standard background colour and font family for the body of the website */
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+/***** NAVBAR *****/
 /* CSS gradients found here -> https://www.w3schools.com/css/css3_gradients.asp */
 .custom-navbar-bg {
-    background-image: linear-gradient(to right, #054FB9, #0073E6);
+  background-image: linear-gradient(to right, #054FB9, #0073E6);
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: white;
-    padding: 20px;
+  color: white;
+  padding: 20px;
 }
 
 .navbar {
-    box-shadow: 1px 0px 8px 3px slategray;
+  box-shadow: 1px 0px 8px 3px slategray;
 }
 
 /* Change burger icon colour -> https://www.youtube.com/watch?v=SPoy8_ZtvKs */
 .navbar-toggler {
-    filter: invert(100%);
+  filter: invert(100%);
 }
 
 /*Hover styling for the Navbar -> https://ianlunn.github.io/Hover/ */
@@ -30,6 +37,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .hvr-underline-from-center:before {
   content: "";
   position: absolute;
@@ -46,12 +54,15 @@
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
   left: 0;
   right: 0;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    text-shadow: 0.5px 0.5px #ffff;
-       
+  text-shadow: 0.5px 0.5px #ffff;
+
 }
