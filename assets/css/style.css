@@ -67,3 +67,24 @@ body {
 .navbar-nav .nav-item .nav-link:hover {
   text-shadow: 0px 0px 2.5px #ffff;
 }
+
+/***** HOME *****/
+.home-section {
+  background-image: linear-gradient(to right, #054FB9, #0073E6);
+  color: #ffffff;
+}
+
+.hero-image-container {
+  position: relative;
+  
+}
+
+.hero-image {
+  position:absolute;
+  top: 40%;
+  left: 40px;
+  right: 20px;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 300px 100px 100px 100px 
+}
