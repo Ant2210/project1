@@ -70,15 +70,19 @@ body {
 
 /***** HOME *****/
 .home-section {
-  background-image: linear-gradient(to right, #054FB9, #0073E6);
+  background-image: url(/assets/images/wave1.png);
+  background-position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #ffffff;
+  padding-bottom: 100px;
 }
 
 .hero-image-container {
   position: relative;
   
 }
-
+/* Home section image */
 .hero-image {
   position:absolute;
   top: 40%;
@@ -88,3 +92,4 @@ body {
   max-width: 400px;
   border-radius: 300px 100px 100px 100px 
 }
+
