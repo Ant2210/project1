@@ -80,16 +80,15 @@ body {
 
 .hero-image-container {
   position: relative;
-  
-}
-/* Home section image */
-.hero-image {
-  position:absolute;
-  top: 40%;
-  left: 40px;
-  right: 20px;
-  width: 80%;
-  max-width: 400px;
-  border-radius: 300px 100px 100px 100px 
+
 }
 
+/* Home section image */
+.hero-image {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  border-radius: 300px 100px 100px 100px
+}
