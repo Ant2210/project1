@@ -19,7 +19,7 @@ body {
 }
 
 .navbar {
-  box-shadow: 1px 0px 8px 3px slategray;
+  box-shadow: 1px 0px 8px 3px #292929;
 }
 
 /* Change burger icon colour -> https://www.youtube.com/watch?v=SPoy8_ZtvKs */
@@ -71,11 +71,11 @@ body {
 /***** HOME *****/
 .home-section {
   background-image: url(/assets/images/wave1.png);
-  background-position: absolute;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 
 .hero-image-container {
