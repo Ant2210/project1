@@ -70,7 +70,7 @@ body {
 
 /***** HOME *****/
 .home-section {
-  background-image: url(/assets/images/wave1.png);
+  background-image: url(/assets/images/wave1.svg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -85,8 +85,6 @@ body {
 
 /* Home section image */
 .hero-image {
-  position: absolute;
-  top: 40%;
   left: 10%;
   right: 10%;
   width: 80%;
