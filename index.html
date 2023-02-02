@@ -18,37 +18,45 @@
       <a class="navbar-brand" href="#home">
         <img src="./assets/images/logo1.png" alt="Blue Mountain Development Logo" height="44" width="220">
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link hvr-underline-from-center" href="#home"><i
-                class="fa-solid fa-house pe-3 d-lg-none"></i>Home</a>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-4">
+            <li class="nav-item">
+              <a class="nav-link hvr-underline-from-center" href="#home"><i
+                  class="fa-solid fa-house pe-3 d-lg-none"></i>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hvr-underline-from-center" href="#about-us"><i
+                  class="fa-solid fa-question pe-3 d-lg-none"></i>About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hvr-underline-from-center" href="#"><i
+                  class="fa-solid fa-gears pe-3 d-lg-none"></i>Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hvr-underline-from-center" href="#"><i
+                  class="fa-solid fa-star pe-3 d-lg-none"></i>Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hvr-underline-from-center" href="#"><i
+                  class="fa-solid fa-envelope pe-3 d-lg-none"></i>Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hvr-underline-from-center" href="#"><i
+                  class="fa-solid fa-folder-open pe-3 d-lg-none"></i>Portfolio</a>
+          </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link hvr-underline-from-center" href="#about-us"><i
-                class="fa-solid fa-question pe-3 d-lg-none"></i>About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link hvr-underline-from-center" href="#"><i
-                class="fa-solid fa-gears pe-3 d-lg-none"></i>Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link hvr-underline-from-center" href="#"><i
-                class="fa-solid fa-star pe-3 d-lg-none"></i>Reviews</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link hvr-underline-from-center" href="#"><i
-                class="fa-solid fa-envelope pe-3 d-lg-none"></i>Contact Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link hvr-underline-from-center" href="#"><i
-                class="fa-solid fa-folder-open pe-3 d-lg-none"></i>Portfolio</a>
-          </li>
-        </ul>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
@@ -60,15 +68,19 @@
           <h1>Bring Your Ideas to Life</h1>
           <br>
           <p>
-            <strong>Blue Mountain Development</strong> is a full service <strong>web</strong> and <strong>software development</strong>
+            <strong>Blue Mountain Development</strong> is a full service <strong>web</strong> and <strong>software
+              development</strong>
             company based in Cardiff.
           </p>
           <p>
-            We offer a full suite of services that can help bring your ideas and projects to life. From a <strong>bespoke company website</strong> or <strong>web application</strong> to <strong>mobile apps</strong> and <strong>cross-platform software</strong>, we have the knowledge and expertise to make it happen.
+            We offer a full suite of services that can help bring your ideas and projects to life. From a
+            <strong>bespoke company website</strong> or <strong>web application</strong> to <strong>mobile apps</strong>
+            and <strong>cross-platform software</strong>, we have the knowledge and expertise to make it happen.
           </p>
           <br>
           <form>
-            <button id="about-us-btn" type="submit" action="#about-us">About Us<i class="fa-solid fa-arrow-down px-2"></i></button>
+            <button id="about-us-btn" type="submit" action="#about-us">About Us<i
+                class="fa-solid fa-arrow-down px-2"></i></button>
           </form>
         </article>
       </div>
