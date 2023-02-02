@@ -122,6 +122,10 @@ body {
 }
 
 /***** ABOUT US *****/
+#about-us {
+  scroll-margin-top: 2em;
+}
+
 .about-us-image {
   left: 10%;
   right: 10%;
