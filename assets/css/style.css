@@ -82,8 +82,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
-  padding-bottom: 200px;
-}
+  }
 
 .hero-image-container {
   position: relative;
@@ -115,3 +114,5 @@ body {
   box-shadow: none;
   transform: translateY(1px);
 }
+
+/***** ABOUT US *****/
