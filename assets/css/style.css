@@ -90,3 +90,21 @@ body {
   width: 80%;
   border-radius: 300px 100px 100px 100px
 }
+
+/* Home section button (leads to about us) */
+#about-us-btn {
+  background-color: #0397BB;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: -3px 3px 3px #292929;
+  padding: 3px 10px;
+  margin-bottom: 15px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+#about-us-btn:hover {
+  background-color: #0BCCE2;
+  box-shadow: none;
+  transform: translateY(1px);
+}

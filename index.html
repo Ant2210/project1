@@ -15,7 +15,7 @@
   <!-- Navbar start - Navbar basic structure built with bootstrap and then re-styled -->
   <nav class="navbar sticky-top navbar-expand-lg custom-navbar-bg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="#home">
         <img src="./assets/images/logo1.png" alt="Blue Mountain Development Logo" height="44" width="220">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -25,7 +25,7 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link hvr-underline-from-center" href="#"><i
+            <a class="nav-link hvr-underline-from-center" href="#home"><i
                 class="fa-solid fa-house pe-3 d-lg-none"></i>Home</a>
           </li>
           <li class="nav-item">
@@ -53,9 +53,9 @@
     </div>
   </nav>
   <!-- Navbar end -->
-  <section class="container-fluid home-section">
+  <section id="home" class="container-fluid home-section">
     <div class="row py-5 px-3">
-      <div class="col-12 col-md-6 m-auto p-auto">
+      <div class="col-12 col-md-6 my-auto px-5">
         <article>
           <h1>Bring Your Ideas to Life</h1>
           <br>
@@ -66,6 +66,10 @@
           <p>
             We offer a full suite of services that can help bring your ideas and projects to life. From a <strong>bespoke company website</strong> or <strong>web application</strong> to <strong>mobile apps</strong> and <strong>cross-platform software</strong>, we have the knowledge and expertise to make it happen.
           </p>
+          <br>
+          <form>
+            <button id="about-us-btn" type="submit" action="#about-us">About Us<i class="fa-solid fa-arrow-down px-2"></i></button>
+          </form>
         </article>
       </div>
       <div class="col-12 col-md-6 text-center hero-image-container">
@@ -73,6 +77,9 @@
       </div>
     </div>
   </section>
+  <!-- TEST SECTION -->
+  <div id="about-us">Test</div>
+  <!-- TEST SECTION -->
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
