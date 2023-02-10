@@ -152,6 +152,10 @@ body {
 }
 
 /***** SERVICES *****/
+#services {
+  scroll-margin-top: 2em;
+}
+
 /* Flip card - Code taken from here and restyled, aslo added pseudo classes so the cards flip on tab for accessibility -> https://www.w3schools.com/howto/howto_css_flip_card.asp */
 .flip-card {
   background-color: transparent;
@@ -202,4 +206,21 @@ body {
   color: #ffffff;
   border-radius: 15px;
   transform: rotateY(180deg);
+}
+
+/* Change card positioning on medium screetn sizes */
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  #services {
+    position: relative;
+  }
+
+  #services-header {
+    text-align: center;
+    padding-top: 40px;   
+  }
+    
+  #flip-card-2 {
+    position: absolute;
+    bottom: 175px;
+  }
 }
