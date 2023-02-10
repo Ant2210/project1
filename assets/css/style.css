@@ -79,7 +79,6 @@ body {
 }
 
 /* Off Canvas Navbar */
-
 #offcanvasNavbar {
   background-color: #0461CF;
   max-width: 70vw;
@@ -197,18 +196,29 @@ body {
 .flip-card-front {
   background-color: #054FB9;
   color: #ffffff;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 500;
   border-radius: 15px;
+}
+
+.click-or-hover {
+  position: absolute;
+  bottom: 5%;
+  right:20%;
+  font-weight: 400;
 }
 
 /* Style the back side */
 .flip-card-back {
   background-color: #0073E6;
   color: #ffffff;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 500;
   border-radius: 15px;
   transform: rotateY(180deg);
 }
 
-/* Change card positioning on medium screetn sizes */
+/* Change card positioning on medium screen sizes */
 @media (min-width: 767.98px) and (max-width: 991.98px) {
   #services {
     position: relative;
