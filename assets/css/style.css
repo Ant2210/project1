@@ -85,6 +85,43 @@ body {
   color: white;
 }
 
+/***** BUTTONS *****/
+.dark-blue-btn {
+  background-color: #054FB9;
+  color: #ffffff;
+  font-weight: 500;
+  border: none;
+  border-radius: 15px;
+  box-shadow: -3px 3px 3px #292929;
+  padding: 4px 10px;
+  margin-bottom: 15px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.dark-blue-btn:hover {
+  background-color: #0073E6;
+  box-shadow: none;
+  transform: translateY(1px);
+}
+
+.light-blue-btn {
+  background-color: #04ABD4;
+  color: #ffffff;
+  font-weight: 500;
+  border: none;
+  border-radius: 15px;
+  box-shadow: -3px 3px 3px #292929;
+  padding: 4px 10px;
+  margin-bottom: 15px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+#light-blue-btn:hover {
+  background-color: #0BCCE2;
+  box-shadow: none;
+  transform: translateY(1px);
+}
+
 /***** HOME *****/
 .home-section {
   background-image: url(/assets/images/wave1.svg);
@@ -101,28 +138,9 @@ body {
   border-radius: 300px 100px 100px 100px
 }
 
-/* Home section button (leads to about us) */
-#about-us-btn {
-  background-color: #04ABD4;
-  color: #ffffff;
-  font-weight: 500;
-  border: none;
-  border-radius: 15px;
-  box-shadow: -3px 3px 3px #292929;
-  padding: 4px 10px;
-  margin-bottom: 15px;
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-}
-
-#about-us-btn:hover {
-  background-color: #0BCCE2;
-  box-shadow: none;
-  transform: translateY(1px);
-}
-
 /***** ABOUT US *****/
 #about-us {
-  scroll-margin-top: 2em;
+  scroll-margin-top: 4em;
 }
 
 .about-us-image {
@@ -132,34 +150,16 @@ body {
   border-radius: 100px 100px 300px 100px
 }
 
-#services-btn {
-  background-color: #054FB9;
-  color: #ffffff;
-  font-weight: 500;
-  border: none;
-  border-radius: 15px;
-  box-shadow: -3px 3px 3px #292929;
-  padding: 4px 10px;
-  margin-bottom: 15px;
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-}
-
-#services-btn:hover {
-  background-color: #0073E6;
-  box-shadow: none;
-  transform: translateY(1px);
-}
-
 /***** SERVICES *****/
 #services {
-  scroll-margin-top: 2em;
+  scroll-margin-top: 4em;
 }
 
 /* Flip card - Code taken from here and restyled, aslo added pseudo classes so the cards flip on tab for accessibility -> https://www.w3schools.com/howto/howto_css_flip_card.asp */
 .flip-card {
   background-color: transparent;
   width: 300px;
-  height: 200px;
+  height: 300px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -226,11 +226,11 @@ body {
 
   #services-header {
     text-align: center;
-    padding-top: 40px;   
+    padding-top: 75px;   
   }
     
   #flip-card-2 {
     position: absolute;
-    bottom: 175px;
+    bottom: 250px;
   }
 }

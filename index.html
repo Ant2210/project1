@@ -78,7 +78,7 @@
           </p>
           <br>
           <form action="#about-us">
-            <button id="about-us-btn" type="submit">About Us<i class="fa-solid fa-arrow-down ps-2"></i></button>
+            <button class="light-blue-btn" type="submit">About Us<i class="fa-solid fa-arrow-down ps-2"></i></button>
           </form>
         </article>
       </div>
@@ -113,7 +113,7 @@
           </p>
           <br>
           <form class="text-center text-md-start pb-3" action="#services">
-            <button id="services-btn" type="submit" action="#services">Services<i
+            <button class="dark-blue-btn" type="submit" action="#services">Services<i
                 class="fa-solid fa-arrow-down ps-2"></i></button>
           </form>
         </article>
@@ -123,7 +123,7 @@
   <!-- Services Section -->
   <section id="services">
     <article>
-      <div class="container-fluid d-flex justify-content-center py-5 px-5">
+      <div class="d-flex justify-content-center py-5 px-5">
         <div class="row white-bg-text">
           <div id="services-header" class="col-12 col-md-6 col-lg-12">
             <h2>Services</h2>
@@ -133,15 +133,18 @@
           <div class="col-12 col-md-6 col-lg-4 my-3">
             <div id="flip-card-1" class="flip-card">
               <div class="flip-card-inner" tabindex="0">
-                <div class="flip-card-front py-4">
-                  <i class="fa-solid fa-laptop-code fs-1 mb-2"></i>
-                  <h4>Web Development</h4>
+                <div class="flip-card-front px-4 pt-5">
+                  <i class="fa-solid fa-laptop-code fs-1 py-4"></i>
+                  <h4>Web<br>Development</h4>
                   <span class="click-or-hover">Click or hover for more</span>
                 </div>
-                <div class="flip-card-back">
-                  <h1>John Doe</h1>
-                  <p>Architect & Engineer</p>
-                  <p>We love that guy</p>
+                <div class="flip-card-back p-4">
+                  <h4>Web Development</h4>
+                  <br>
+                  <p>
+                    From a basic one page website or a simple web app to a 1,000 page e-commerce store and everything in
+                    between, we have the knowledge and expertise to make it happen.
+                  </p>
                 </div>
               </div>
             </div>
@@ -150,16 +153,17 @@
           <div class="col-12 col-md-6 col-lg-4 my-3">
             <div id="flip-card-2" class="flip-card">
               <div class="flip-card-inner" tabindex="0">
-                <div class="flip-card-front py-4">
+                <div class="flip-card-front pt-5">
                   <i class="fa-solid fa-desktop fs-1"></i>
-                  <i class="fa-solid fa-tablet-screen-button fs-1 mb-2"></i>
+                  <i class="fa-solid fa-tablet-screen-button fs-1 py-4"></i>
                   <h4>Cross-Platform<br>Software</h4>
                   <span class="click-or-hover">Click or hover for more</span>
                 </div>
-                <div class="flip-card-back">
-                  <h1>John Doe</h1>
-                  <p>Architect & Engineer</p>
-                  <p>We love that guy</p>
+                <div class="flip-card-back p-4">
+                  <h4>Cross-Platform<br>Software</h4>
+                  <br>
+                  <p>Do you need custom software built for specific or multiple platforms? Contact us today, to find our
+                    how our expert team can help you.</p>
                 </div>
               </div>
             </div>
@@ -168,20 +172,27 @@
           <div class="col-12 col-md-6 col-lg-4 my-3">
             <div id="flip-card-3" class="flip-card">
               <div class="flip-card-inner" tabindex="0">
-                <div class="flip-card-front py-4">
-                  <i class="fa-solid fa-mobile-screen-button fs-1 mb-2"></i>
-                  <h4>Mobile Applications</h4>
+                <div class="flip-card-front pt-5">
+                  <i class="fa-solid fa-mobile-screen-button fs-1 py-4"></i>
+                  <h4>Mobile<br>Applications</h4>
                   <span class="click-or-hover">Click or hover for more</span>
                 </div>
-                <div class="flip-card-back">
-                  <h1>John Doe</h1>
-                  <p>Architect & Engineer</p>
-                  <p>We love that guy</p>
+                <div class="flip-card-back p-4">
+                  <h4>Mobile Applications</h4>
+                  <br>
+                  <p>Have an app idea, or need one built for your company? Let us guide you through the entire process
+                    from design to launching on the app stores.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <form class="text-center text-md-start pb-3" action="#services">
+          <button class="dark-blue-btn" type="submit" action="#reviews">Reviews<i
+              class="fa-solid fa-arrow-down ps-2"></i></button>
+        </form>
       </div>
     </article>
   </section>
