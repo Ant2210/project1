@@ -116,7 +116,7 @@ body {
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
-#light-blue-btn:hover {
+.light-blue-btn:hover {
   background-color: #0BCCE2;
   box-shadow: none;
   transform: translateY(1px);
