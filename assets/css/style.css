@@ -237,6 +237,7 @@ body {
 
 /***** REVIEWS *****/
 #reviews {
+  scroll-margin-top: 4em;
   max-width: 1165px;
   margin: auto;
 }
