@@ -236,6 +236,11 @@ body {
 }
 
 /***** REVIEWS *****/
+#reviews {
+  max-width: 1165px;
+  margin: auto;
+}
+
 /* Carousel */
 .carousel-buttons {
   filter: invert(100);
