@@ -269,8 +269,35 @@ body {
   margin: 0 auto;
 }
 
-.review-image {
-  background: url("../images/office1.png") no-repeat center center;
+#review-image-1 {
+  background: url("../images/jackwilson.png") no-repeat center center;
+  height: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0073E6;
+  border-radius: 50%;
+}
+
+#review-image-2 {
+  background: url("../images/milliejames.png") no-repeat center center;
+  height: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0073E6;
+  border-radius: 50%;
+}
+
+#review-image-3 {
+  background: url("../images/jennybaker.png") no-repeat center center;
+  height: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0073E6;
+  border-radius: 50%;
+}
+
+#review-image-4 {
+  background: url("../images/carlostaylor.png") no-repeat center center;
   height: 100%;
   border-style: solid;
   border-width: 1px;
