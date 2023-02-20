@@ -124,7 +124,7 @@ body {
 
 /***** HOME *****/
 .home-section {
-  background-image: url('../assets/images/wave1.svg');
+  background-image: url("../images/wave1.svg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -270,7 +270,7 @@ body {
 }
 
 .review-image {
-  background: url("../assets/images/office1.png") no-repeat center center;
+  background: url("../images/office1.png") no-repeat center center;
   height: 100%;
   border-style: solid;
   border-width: 1px;
