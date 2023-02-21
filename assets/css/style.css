@@ -30,7 +30,7 @@ body {
 }
 
 .navbar {
-  box-shadow: 1px 0px 8px 3px #292929;
+  box-shadow: 0px 3px 6px #292929;
 }
 
 /* Change burger icon colour -> https://www.youtube.com/watch?v=SPoy8_ZtvKs */
@@ -92,7 +92,7 @@ body {
   font-weight: 500;
   border: none;
   border-radius: 15px;
-  box-shadow: -3px 3px 3px #292929;
+  box-shadow: 0px 3px 6px #292929;
   padding: 4px 10px;
   margin-bottom: 15px;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
@@ -110,7 +110,7 @@ body {
   font-weight: 500;
   border: none;
   border-radius: 15px;
-  box-shadow: -3px 3px 3px #292929;
+  box-shadow: 0px 3px 6px #292929;
   padding: 4px 10px;
   margin-bottom: 15px;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
@@ -132,10 +132,17 @@ body {
 
 /* Home section image */
 .hero-image {
-  left: 10%;
-  right: 10%;
-  width: 80%;
-  border-radius: 300px 100px 100px 100px
+  width: 100%;
+  border-radius: 300px 100px 100px 100px;
+  box-shadow: 0px 3px 6px #292929;
+}
+
+@media screen and (min-width: 992px ) {
+  .hero-image {
+    left: 10%;
+    right: 10%;
+    width: 80%;
+  }
 }
 
 /***** ABOUT US *****/
@@ -144,10 +151,23 @@ body {
 }
 
 .about-us-image {
-  left: 10%;
-  right: 10%;
-  width: 80%;
-  border-radius: 100px 100px 300px 100px
+  width: 100%;
+  border-radius: 100px 100px 300px 100px;
+  box-shadow: 0px 3px 6px #292929;
+}
+
+@media screen and (min-width: 992px ) {
+  .about-us-image {
+    left: 10%;
+    right: 10%;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .about-us-image {
+    margin-top: 100px;
+  }
 }
 
 /***** SERVICES *****/
@@ -171,7 +191,7 @@ body {
   text-align: center;
   transition: transform 1s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 #292929;
+  box-shadow: 0 3px 6px 0 #292929;
   border-radius: 15px;
 }
 
@@ -250,7 +270,7 @@ body {
 /* Review Card */
 .card {
   padding: 10px;
-  box-shadow: 0 4px 8px 0 #292929;
+  box-shadow: 0 3px 6px 0 #292929;
 }
 
 /* Review Card Image - Example taken and restyled from code institute love running project */
@@ -313,6 +333,10 @@ body {
   background-repeat: no-repeat;
   }
 
+  #contact-us h2 {
+    margin-top: 30px;
+  }
+
   /* Contact Us Form */
   input {
     border-radius: 15px;
@@ -320,8 +344,9 @@ body {
     border-left: 7px solid transparent;
     outline: none;
     width: 250px;
+    max-width: 100%;
     margin-bottom: 10px;
-    box-shadow: -3px 3px 3px #292929;
+    box-shadow: 0px 3px 6px #292929;
     
   }
 
@@ -335,8 +360,9 @@ body {
     border-right: 10px solid transparent;
     border-left: 7px solid transparent;
     outline: none;
+    max-width: 100%;
     margin-bottom: 10px;
-    box-shadow: -3px 3px 3px #292929;
+    box-shadow: 0px 3px 6px #292929;
   }
 
   label {
