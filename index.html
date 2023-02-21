@@ -47,7 +47,7 @@
                   class="fa-solid fa-star pe-3 d-lg-none"></i>Reviews</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="#contact-us"><i
+              <a class="nav-link hvr-underline-from-center" href="#contact-us-scroll"><i
                   class="fa-solid fa-envelope pe-3 d-lg-none"></i>Contact Us</a>
             </li>
             <li class="nav-item">
@@ -283,12 +283,13 @@
                       <h5 class="card-title text-center">Jenny Baker</h5>
                       <h6 class="card-subtitle mb-2 text-muted text-center">CEO - Design Dr</h6>
                       <p class="card-text text-center w-75 m-auto py-4"><em>
-                        "Helped me to merge my design skills with their tech skills to create a beautifuly designed
-                        mobile application. Great job all round."</em>
+                          "Helped me to merge my design skills with their tech skills to create a beautifuly designed
+                          mobile application. Great job all round."</em>
                       </p>
                       <div class="text-center text-warning pb-2">
                         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                          class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                          class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                          class="fa-regular fa-star"></i>
                       </div>
                     </div>
                   </div>
@@ -332,8 +333,8 @@
         </div>
       </div>
       <div class="d-flex justify-content-center">
-        <form class="text-center text-md-start pb-3" action="#contact-us">
-          <button class="dark-blue-btn" type="submit" action="#contact-us">Contact Us<i
+        <form class="text-center text-md-start pb-3" action="#contact-us-scroll">
+          <button class="dark-blue-btn" type="submit" action="#contact-us-scroll">Contact Us<i
               class="fa-solid fa-arrow-down ps-2"></i></button>
         </form>
       </div>
@@ -346,27 +347,52 @@
         <img class="hero-image" src="./assets/images/office1.png" alt="">
       </div>
       <div class="col-12 col-md-6 my-auto px-md-3 px-lg-5">
-        <article>
-          <h2>Contact Us</h2>
+        <h2 id="contact-us-scroll">Contact Us</h2>
+        <br>
+        <form action="#">
+          <label for="name">Name:</label>
           <br>
-          <form action="#">
-            <label for="name">Name:</label>
-            <br>
-            <input id="name" type="text" name="name" placeholder="Name..." required>
-            <br>
-            <label for="email">Email Address:</label>
-            <br>
-            <input id="email" type="email" name="email" placeholder="Email Address..." required>
-            <br>
-            <label for="message">Message</label>
-            <br>
-            <textarea id="message" name="message" placeholder="Message..." cols="40" rows="5" required></textarea>
-            <br>
-            <button class="light-blue-btn" type="submit">Submit</button>
-          </form>
-        </article>
+          <input id="name" type="text" name="name" placeholder="Name..." required>
+          <br>
+          <label for="email">Email Address:</label>
+          <br>
+          <input id="email" type="email" name="email" placeholder="Email Address..." required>
+          <br>
+          <label for="message">Message</label>
+          <br>
+          <textarea id="message" name="message" placeholder="Message..." cols="40" rows="5" required></textarea>
+          <br>
+          <button class="light-blue-btn" type="submit">Submit</button>
+        </form>
       </div>
     </div>
+    <div class="col-12 my-auto px-md-3 px-lg-5 text-center">
+      <h4>Contact Details</h4>
+      <div class="row">
+        <div class="col-12 col-md-6">
+        <div>
+          <a href="tel:02920123456">Phone:&nbsp;0292&nbsp;012&nbsp;3456</a>
+        </div>
+        <div>
+          <p>Address: 123 Sesame Street, Cardiff, CF12 3AB</p>
+        </div>
+        <div>
+          <a href="mailto:info@bluemountaindevelopment.com">Email: info@bluemountaindevelopment.com</a>
+        </div>
+      </div>
+        <div class="col-12 col-md-6">
+          <iframe id="map" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d877.6478788079737!2d-3.203087138587583!3d51.524900342485424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1b888be46b17%3A0xb9cd56b5fb6421d5!2s487%20Caerphilly%20Rd%2C%20Cardiff%20CF14%204SN!5e0!3m2!1sen!2suk!4v1677001473936!5m2!1sen!2suk"
+            width="400" height="300" allowfullscreen="false" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
   </section>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
