@@ -312,3 +312,33 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   }
+
+  /* Contact Us Form */
+  input {
+    border-radius: 15px;
+    border-style: none;
+    border-left: 7px solid transparent;
+    outline: none;
+    width: 250px;
+    margin-bottom: 10px;
+    box-shadow: -3px 3px 3px #292929;
+    
+  }
+
+  ::placeholder {
+    padding-left: 5px;
+  }
+
+  textarea {
+    border-radius: 15px;
+    resize: none;
+    border-right: 10px solid transparent;
+    border-left: 7px solid transparent;
+    outline: none;
+    margin-bottom: 10px;
+    box-shadow: -3px 3px 3px #292929;
+  }
+
+  label {
+    padding-left: 10px;
+  }
