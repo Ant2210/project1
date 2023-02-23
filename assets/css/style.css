@@ -19,18 +19,15 @@ body {
 
 /***** NAVBAR *****/
 /* CSS gradients found here -> https://www.w3schools.com/css/css3_gradients.asp */
-.custom-navbar-bg {
+.navbar {
   background-image: linear-gradient(to right, #054FB9, #0073E6);
+  box-shadow: 0px 3px 6px #292929;
 }
 
 .navbar-nav .nav-item .nav-link {
   color: white;
   font-weight: 500;
   padding: 20px;
-}
-
-.navbar {
-  box-shadow: 0px 3px 6px #292929;
 }
 
 /* Change burger icon colour -> https://www.youtube.com/watch?v=SPoy8_ZtvKs */
@@ -328,6 +325,7 @@ body {
 /***** CONTACT US *****/
 #contact-us {
   padding-top: 75px;
+  padding-bottom: 10px;
   background-image: url("../images/wave2.svg");
   background-position: center center;
   background-size: cover;
@@ -391,11 +389,11 @@ body {
     color: white;
   }
 
-  .contact-details-link {
+  .contact-links {
     transition: transform 0.3s ease-in-out;
   }
 
-  .contact-details-link:hover {
+  .contact-links:hover {
     transform: translateY(-2px);
     text-shadow: 0px 0px 2.5px #ffff;
   }
@@ -405,4 +403,19 @@ body {
     border-radius: 15px;
     box-shadow: 0px 3px 6px #292929;
     max-width: 100%;
+  }
+
+  /***** FOOTER *****/
+  footer {
+    background-image: linear-gradient(to right, #054FB9, #0073E6);
+    box-shadow: 0px -1px 3px #292929;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #disclaimer {
+    font-size: small;
   }
