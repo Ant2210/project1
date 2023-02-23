@@ -327,6 +327,7 @@ body {
 
 /***** CONTACT US *****/
 #contact-us {
+  padding-top: 75px;
   background-image: url("../images/wave2.svg");
   background-position: center center;
   background-size: cover;
@@ -334,7 +335,22 @@ body {
   }
 
   #contact-us h2 {
+    scroll-margin-top: 4em;
     margin-top: 30px;
+  }
+
+  .contact-us-image {
+    width: 100%;
+    border-radius: 100px 100px 300px 100px;
+    box-shadow: 0px 3px 6px #292929;
+  }
+  
+  @media screen and (min-width: 992px ) {
+    .contact-us-image {
+      left: 10%;
+      right: 10%;
+      width: 80%;
+    }
   }
 
   /* Contact Us Form */
@@ -369,7 +385,24 @@ body {
     padding-left: 10px;
   }
 
+/* Contact Details */
+  #contact-details a, #contact-details p {
+    text-decoration: none;    
+    color: white;
+  }
+
+  .contact-details-link {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .contact-details-link:hover {
+    transform: translateY(-2px);
+    text-shadow: 0px 0px 2.5px #ffff;
+  }
+
+
   #map {
     border-radius: 15px;
     box-shadow: 0px 3px 6px #292929;
+    max-width: 100%;
   }
