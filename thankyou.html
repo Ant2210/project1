@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <!-- Navbar - Navbar basic structure built with bootstrap and then re-styled -->
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html#home">
+                <img src="./assets/images/logo1.png" alt="Blue Mountain Development Logo" height="44" width="220">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Open Menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-4">
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="index.html#home"><i
+                                    class="fa-solid fa-house pe-3 d-lg-none"></i>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="index.html#about-us"><i
+                                    class="fa-solid fa-question pe-3 d-lg-none"></i>About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="index.html#services"><i
+                                    class="fa-solid fa-gears pe-3 d-lg-none"></i>Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="index.html#reviews"><i
+                                    class="fa-solid fa-star pe-3 d-lg-none"></i>Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="index.html#contact-us-scroll"><i
+                                    class="fa-solid fa-envelope pe-3 d-lg-none"></i>Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="#"><i
+                                    class="fa-solid fa-folder-open pe-3 d-lg-none"></i>Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="container-fluid pt-5 blue-bg-text">
+        <div class="row py-5 px-3 px-md-5">
+          <div class="col-12 col-md-6 my-auto px-0 px-md-3 px-lg-5">
+            <article>
+              <h1>Thanks for getting in touch...</h1>
+              <br>
+              <p>
+                Thank you for reaching out. We aim to respond to all messages within 24 working hours.
+              </p>
+              <p>
+                If your enquiry is urgent feel free to give us a call on <a class="contact-links text-white" href="tel:02920123456">0292&nbsp;012&nbsp;3456.</a>
+              </p>
+              <br>
+              <form action="index.html#home">
+                <button class="light-blue-btn" type="submit">Take Me Home<i class="fa-solid fa-house ps-2"></i></button>
+              </form>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 text-center">
+            <img class="hero-image" src="./assets/images/thankyou.png" alt="">
+          </div>
+        </div>
+      </section>
+
+    <!-- Footer - Flush footer to bottom fix found here -> https://radu.link/make-footer-stay-bottom-page-bootstrap/ -->
+    <footer class="mt-auto">
+        <div class="row container-fluid blue-bg-text m-0 p-0">
+            <div class="col-12 text-center py-3 d-flex flex-wrap">
+                <div class="d-inline-block fs-1 contact-links col-3 col-md-2 order-2 order-md-1">
+                    <a href="https://www.facebook.com" target="_blank"
+                        aria-label="Link to Blue Mountain Development Facebook page"><i aria-hidden="true"
+                            class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="d-inline-block fs-1 contact-links col-3 col-md-2 order-3 order-md-2">
+                    <a href="https://www.instagram.com" target="_blank"
+                        aria-label="Link to Blue Mountain Development Instagram page"><i aria-hidden="true"
+                            class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="d-inline-block col-12 col-md-4 order-1 order-md-3 pb-3 pb-md-0">
+                    <img src="./assets/images/logo1.png" alt="Blue Mountain Development Logo" height="44" width="220">
+                </div>
+                <div class="d-inline-block fs-1 contact-links col-3 col-md-2 order-4">
+                    <a href="https://www.twitter.com" target="_blank"
+                        aria-label="Link to Blue Mountain Development Twitter page"><i aria-hidden="true"
+                            class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="d-inline-block fs-1 contact-links col-3 col-md-2 order-5">
+                    <a href="https://www.linkedin.com" target="_blank"
+                        aria-label="Link to Blue Mountain Development LinkedIn page"><i aria-hidden="true"
+                            class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div id="disclaimer" class="col-12 text-center p-auto m-auto">
+                <span>
+                    This website is for educational purposes only and does not represent a real company.
+                    <br>© Anthony Griffiths 2023. All Rights Reserved.
+                </span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/92bb20ec43.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
