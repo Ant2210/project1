@@ -419,3 +419,19 @@ body {
   #disclaimer {
     font-size: small;
   }
+
+  /***** THANK YOU PAGE *****/
+  #thank-you {
+    background-image: url("../images/wave1.svg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+    /***** PORTFOLIO *****/
+    #portfolio {
+      background-image: url("../images/wave1.svg");
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      }
