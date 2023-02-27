@@ -458,7 +458,7 @@ body {
 
 .p-card-list {
     display: flex;
-    width: 85vw;
+    width: 90vw;
     padding: 3rem;
     overflow-x: scroll;
 }
@@ -480,8 +480,8 @@ body {
 }
 
 .p-card {
-    height: 350px;
-    width: 300px;
+    height: 300px;
+    width: 250px;
     min-width: 250px;
     padding: 1.5rem;
     border-radius: 16px;
