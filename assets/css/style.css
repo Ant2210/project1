@@ -26,7 +26,7 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #0073E6;
   border-radius: 10px;
-  box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(5,79,185,.25);
+  box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, .25), inset -2px -2px 2px rgba(5, 79, 185, .25);
 }
 
 ::-webkit-scrollbar-track {
@@ -141,7 +141,7 @@ body {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  }
+}
 
 /* Home section image */
 .hero-image {
@@ -150,7 +150,7 @@ body {
   box-shadow: 0px 3px 6px #292929;
 }
 
-@media screen and (min-width: 992px ) {
+@media screen and (min-width: 992px) {
   .hero-image {
     left: 10%;
     right: 10%;
@@ -169,7 +169,7 @@ body {
   box-shadow: 0px 3px 6px #292929;
 }
 
-@media screen and (min-width: 992px ) {
+@media screen and (min-width: 992px) {
   .about-us-image {
     left: 10%;
     right: 10%;
@@ -193,7 +193,8 @@ body {
   background-color: transparent;
   width: 300px;
   height: 300px;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
 }
 
 /* This container is needed to position the front and back side */
@@ -217,11 +218,13 @@ body {
 }
 
 /* Position the front and back side */
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
+  -webkit-backface-visibility: hidden;
+  /* Safari */
   backface-visibility: hidden;
 }
 
@@ -237,7 +240,7 @@ body {
 .click-or-hover {
   position: absolute;
   bottom: 5%;
-  right:20%;
+  right: 20%;
   font-weight: 400;
 }
 
@@ -259,9 +262,9 @@ body {
 
   #services-header {
     text-align: center;
-    padding-top: 75px;   
+    padding-top: 75px;
   }
-    
+
   #flip-card-2 {
     position: absolute;
     bottom: 250px;
@@ -346,121 +349,121 @@ body {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  }
-
-  #contact-us h2 {
-    scroll-margin-top: 4em;
-    margin-top: 30px;
-  }
-
-  .contact-us-image {
-    width: 100%;
-    border-radius: 100px 100px 300px 100px;
-    box-shadow: 0px 3px 6px #292929;
-  }
-  
-  @media screen and (min-width: 992px ) {
-    .contact-us-image {
-      left: 10%;
-      right: 10%;
-      width: 80%;
-    }
-  }
-
-  /* Contact Us Form */
-  input {
-    border-radius: 15px;
-    border-style: none;
-    border-left: 7px solid transparent;
-    outline: none;
-    width: 250px;
-    max-width: 100%;
-    margin-bottom: 10px;
-    box-shadow: 0px 3px 6px #292929;
-    
-  }
-
-  ::placeholder {
-    padding-left: 5px;
-  }
-
-  textarea {
-    border-radius: 15px;
-    resize: none;
-    border-right: 10px solid transparent;
-    border-left: 7px solid transparent;
-    outline: none;
-    max-width: 100%;
-    margin-bottom: 10px;
-    box-shadow: 0px 3px 6px #292929;
-  }
-
-  label {
-    padding-left: 10px;
-  }
-
-/* Contact Details */
-  #contact-details a, #contact-details p {
-    text-decoration: none;    
-    color: white;
-  }
-
-  .contact-links {
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .contact-links:hover {
-    transform: translateY(-2px);
-    text-shadow: 0px 0px 2.5px #ffff;
-  }
-
-
-  #map {
-    border-radius: 15px;
-    box-shadow: 0px 3px 6px #292929;
-    max-width: 100%;
-  }
-
-  /***** FOOTER *****/
-  footer {
-    background-image: linear-gradient(to right, #054FB9, #0073E6);
-    box-shadow: 0px -1px 3px #292929;
-  }
-
-  footer a {
-    text-decoration: none;
-    color: white;
-  }
-
-  #disclaimer {
-    font-size: small;
-  }
-
-  /***** THANK YOU PAGE *****/
-  #thank-you {
-    background-image: url("../images/wave1.svg");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    }
-
-    /***** PORTFOLIO *****/
-   /* Portfolio Cards - Code taken from this tutorial and restyled -> https://www.youtube.com/watch?v=29deL9MFfWc */
-   #portfolio-section {
-    margin-bottom: 25px;
-    background-image: url("../images/wave1.svg");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    font-family: "Montserrat", Arial, sans-serif;
 }
 
+#contact-us h2 {
+  scroll-margin-top: 4em;
+  margin-top: 30px;
+}
+
+.contact-us-image {
+  width: 100%;
+  border-radius: 100px 100px 300px 100px;
+  box-shadow: 0px 3px 6px #292929;
+}
+
+@media screen and (min-width: 992px) {
+  .contact-us-image {
+    left: 10%;
+    right: 10%;
+    width: 80%;
+  }
+}
+
+/* Contact Us Form */
+input {
+  border-radius: 15px;
+  border-style: none;
+  border-left: 7px solid transparent;
+  outline: none;
+  width: 250px;
+  max-width: 100%;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 6px #292929;
+
+}
+
+::placeholder {
+  padding-left: 5px;
+}
+
+textarea {
+  border-radius: 15px;
+  resize: none;
+  border-right: 10px solid transparent;
+  border-left: 7px solid transparent;
+  outline: none;
+  max-width: 100%;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 6px #292929;
+}
+
+label {
+  padding-left: 10px;
+}
+
+/* Contact Details */
+#contact-details a,
+#contact-details p {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-links {
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-links:hover {
+  transform: translateY(-2px);
+  text-shadow: 0px 0px 2.5px #ffff;
+}
+
+
+#map {
+  border-radius: 15px;
+  box-shadow: 0px 3px 6px #292929;
+  max-width: 100%;
+}
+
+/***** FOOTER *****/
+footer {
+  background-image: linear-gradient(to right, #054FB9, #0073E6);
+  box-shadow: 0px -1px 3px #292929;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+#disclaimer {
+  font-size: small;
+}
+
+/***** THANK YOU PAGE *****/
+#thank-you {
+  background-image: url("../images/wave1.svg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/***** PORTFOLIO *****/
+#portfolio-section {
+  margin-bottom: 25px;
+  background-image: url("../images/wave1.svg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+/* Portfolio Cards - Code taken from this tutorial and restyled -> https://www.youtube.com/watch?v=29deL9MFfWc */
 .p-card-list {
-    display: flex;
-    width: 90vw;
-    padding: 3rem;
-    overflow-x: scroll;
+  display: flex;
+  padding: 3rem;
+  overflow-x: scroll;
 }
 
 .p-card-list::-webkit-scrollbar {
@@ -471,58 +474,70 @@ body {
 .p-card-list::-webkit-scrollbar-thumb {
   background: #0073E6;
   border-radius: 10px;
-  box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(5,79,185,.25);
+  box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, .25), inset -2px -2px 2px rgba(5, 79, 185, .25);
 }
 
 .p-card-list::-webkit-scrollbar-track {
   background: #ffff;
   border-radius: 15px;
+  margin: 0 30px;
 }
 
 .p-card {
-    height: 300px;
-    width: 250px;
-    min-width: 250px;
-    padding: 1.5rem;
-    border-radius: 16px;
-    background-image: linear-gradient(to right, #054FB9, #0073E6);
-    box-shadow: -10px 0px 10px #292929;
-    display: flex;
-    flex-direction: column;
-    transition: .2s;
-    margin: 0;
-    scroll-snap-align: start;
-    clear: both;
-    position: relative;
+  height: 300px;
+  width: 250px;
+  min-width: 250px;
+  padding: 1rem;
+  border-radius: 16px;
+  background-image: linear-gradient(to right, #054FB9, #0073E6);
+  box-shadow: -10px 0px 10px #292929;
+  display: flex;
+  flex-direction: column;
+  transition: .2s;
+  margin: 0;
+  scroll-snap-align: start;
+  clear: both;
+  position: relative;
 }
 
-.p-card:focus-within~.card, .p-card:hover~.p-card {
-    transform: translateX(130px);
+.p-card:focus-within~.card,
+.p-card:hover~.p-card {
+  transform: translateX(130px);
 }
 
 .p-card:hover {
-    transform: translateY(-1rem);
+  transform: translateY(-1rem);
 }
 
 .p-card:not(:first-child) {
-    margin-left: -130px;
+  margin-left: -130px;
 }
 
 .p-card-header {
-    margin-bottom: auto;
+  margin-bottom: auto;
 }
 
 .p-card-header p {
-    font-size: 14px;
-    margin: 0 0 1rem;
-    color: #7a7a8c;
+  font-size: 14px;
 }
 
 .p-card-header h2 {
-    font-size: 20px;
-    margin: .25rem 0 auto;
-    text-decoration: none;
-    color: inherit;
-    border: 0;
-    display: inline-block;
+  font-size: 20px;
+}
+
+.p-card-image {
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px #292929;
+  cursor: pointer;
+}
+
+.modal-content {
+  border-radius: 15px; 
+}
+
+.modal-image {
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px #292929;
+  max-width: 85vw;
+  height: auto;
 }
