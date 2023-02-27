@@ -518,17 +518,21 @@ footer a {
 }
 
 .p-card-header p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .p-card-header h2 {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .p-card-image {
   border-radius: 5px;
   box-shadow: 0px 3px 6px #292929;
   cursor: pointer;
+}
+
+.p-card-header .p-card-hint {
+  font-size: 12px;
 }
 
 .modal-content {
@@ -538,6 +542,6 @@ footer a {
 .modal-image {
   border-radius: 5px;
   box-shadow: 0px 3px 6px #292929;
-  max-width: 85vw;
+  max-width: 80vw;
   height: auto;
 }
