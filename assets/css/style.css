@@ -30,7 +30,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #d8d8d8ea;
+  background: #d8d8d8;
 }
 
 /***** NAVBAR *****/
@@ -463,7 +463,7 @@ footer a {
 .p-card-list {
   display: flex;
   padding: 3rem;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 .p-card-list::-webkit-scrollbar {
@@ -478,9 +478,9 @@ footer a {
 }
 
 .p-card-list::-webkit-scrollbar-track {
-  background: #ffff;
+  background: #d8d8d8;
   border-radius: 15px;
-  margin: 0 30px;
+  margin: 0 50px;
 }
 
 .p-card {
