@@ -283,6 +283,7 @@ body {
   filter: invert(100);
 }
 
+
 /* Review Card */
 .card {
   padding: 10px;
@@ -500,7 +501,7 @@ footer a {
   position: relative;
 }
 
-.p-card:focus-within~.card,
+.p-card:focus-within~.p-card,
 .p-card:hover~.p-card {
   transform: translateX(130px);
 }
@@ -523,6 +524,11 @@ footer a {
 
 .p-card-header h2 {
   font-size: 22px;
+}
+
+.p-card-image-button {
+  background: none;
+	border: none;
 }
 
 .p-card-image {
