@@ -17,6 +17,12 @@ body {
   font-weight: 500;
 }
 
+/* Fix for alt tags - See bug notes */
+.homepage-image-containter {
+  min-height: 200px;
+  color: black;
+}
+
 /***** SCROLL BAR - Styling learned from modifying code from portfolio cards*****/
 ::-webkit-scrollbar {
   width: 15px;
