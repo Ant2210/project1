@@ -318,7 +318,7 @@ body {
 }
 
 #review-image-1 {
-  background: url("../images/jackwilson.png") no-repeat center center;
+  background: url("../images/jackwilson.webp") no-repeat center center;
   height: 100%;
   border-style: solid;
   border-width: 1px;
@@ -327,7 +327,7 @@ body {
 }
 
 #review-image-2 {
-  background: url("../images/milliejames.png") no-repeat center center;
+  background: url("../images/milliejames.webp") no-repeat center center;
   height: 100%;
   border-style: solid;
   border-width: 1px;
@@ -336,7 +336,7 @@ body {
 }
 
 #review-image-3 {
-  background: url("../images/jennybaker.png") no-repeat center center;
+  background: url("../images/jennybaker.webp") no-repeat center center;
   height: 100%;
   border-style: solid;
   border-width: 1px;
@@ -345,7 +345,7 @@ body {
 }
 
 #review-image-4 {
-  background: url("../images/carlostaylor.png") no-repeat center center;
+  background: url("../images/carlostaylor.webp") no-repeat center center;
   height: 100%;
   border-style: solid;
   border-width: 1px;
