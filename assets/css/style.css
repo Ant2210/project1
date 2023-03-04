@@ -51,6 +51,11 @@ body {
   width: 220px;
 }
 
+.navbar-nav .nav-item {
+  display: block;
+  display: -webkit-box;
+}
+
 .navbar-nav .nav-item .nav-link {
   color: white;
   font-weight: 500;
