@@ -55,6 +55,7 @@ body {
   color: white;
   font-weight: 500;
   padding: 20px;
+  display: -webkit-box;
 }
 
 /* Change burger icon colour -> https://www.youtube.com/watch?v=SPoy8_ZtvKs */
