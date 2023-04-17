@@ -135,7 +135,7 @@ Blue Mountain Development is a software and web development business based in Ca
 -   [Figma](https://www.figma.com/) - To create the wireframs 
 -   [Font Awesome](https://fontawesome.com/) - Used for icons used on various parts of the site
 -   [Git](https://git-scm.com/) - For version control
--   [GitHub](https://github.com/) - To store website the files and repository for the website
+-   [GitHub](https://github.com/) - To store website files and repository for the website
 -   [GitPod](https://www.gitpod.io/) - Was used as my IDE to write code, version control using git and pushing changes for storage to GitHub
 -   [Google Fonts](https://fonts.google.com/) - To import the fonts I chose for the website
 -   Google Dev Tools - Built into the chrome browser to test features and design and troubleshoot as I went along as well as for testing later on
