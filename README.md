@@ -327,19 +327,14 @@ The site has altogether in one way or another been used and tested on the follow
 <br>
 
 -   Browser Errors
-    -   Chrome
-
-        Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'. – After some research it seems this tells google whether or not you would opt into FLoC and can be safely ignored for the purposes of this project.
-<img src="./assets/testing/chromeerrors.png" alt="Image of Chrome console errors">
-
-    -   Edge
-
-        Edge browser returned the same error as Chrome however as it is built in Chromium this is to be expected.
-<img src="./assets/testing/edgeerrors.png" alt="Image of Edge console errors">
-
-    -   Firefox
-
-        No errors found
+1. Chrome
+    - Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'. – After some research it seems this tells google whether or not you would opt into FLoC and can be safely ignored for the purposes of this project.
+    <img src="./assets/testing/chromeerrors.png" alt="Image of Chrome console errors">
+2. Edge
+    - Edge browser returned the same error as Chrome however as it is built in Chromium this is to be expected.
+    <img src="./assets/testing/edgeerrors.png" alt="Image of Edge console errors">
+3. Firefox
+    - No errors found
 
 <br>
 
