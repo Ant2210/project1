@@ -153,7 +153,55 @@ Blue Mountain Development is a software and web development business based in Ca
 
 ## Testing
 
-Extensive testing was carried out throughout the life cycle of this project. As well as all of the documented testing below I asked friends and family to use the site and tell me what was and wasn't working. The site has altogether in one way or another been used and tested on the followin devices...
+### Manual Testing
+
+Extensive testing was carried out throughout the life cycle of this project. As well as all of the documented testing below I asked friends and family to use the site and tell me what was and wasn't working. 
+
+Besides the but listed below in [Unsolved Bugs](#unsolved-bugs) involving the Navlinks on iPhones no other major errors with funcionality were discovered. Other than the bug mentioned all of the the following features and functions were tested and found to be working correctly...
+
+-   Main Page
+    -   All Navbar links direct the user where expected
+    -   On smaller screen sizes the Navbar becomes an off canvas Navbar accessible by the buger icon
+    -   The offcanvas Navbar closes when you click away from it or using the X button
+    -   Besides the iPhone issue all Navbar links lead where they are supposed to on the website
+    -   All buttons on the website lead where they are supposed to on the website
+    -   All external links open in a new browser tab
+    -   The cards used to display the different services all work on either hover, click, tab, touch (on touchscreen) and will return to their original state when you are no longer interacting or click away
+    -   The review carousel buttons work as expected
+    -   The contact form does not currently submit data anywhere as there is no backend however from a user perspective all seems to work fine, the form cannot be submitted without all fields being completed, and when submitted the user is directed to the thank you page so they know their message has been sent succesfuly 
+    -   Phone tel: and email mailto: links in the contact section both work as expected
+    -   The Google map works as expected with all buttons and functions working as expected
+    -   Logo in the footer and Navbar both Navigate back tot he top of the home page
+    -   Social links in the footer all work as expected and open in a new tab
+
+-   Portfolio Page
+    -   All Navbar links direct the user where expected
+    -   On smaller screen sizes the Navbar becomes an off canvas Navbar accessible by the buger icon
+    -   The offcanvas Navbar closes when you click away from it or using the X button
+    -   Besides the iPhone issue all Navbar links lead where they are supposed to on the website
+    -   All buttons on the website lead where they are supposed to on the website
+    -   All external links open in a new browser tab
+    -   The cards used to display the past projectcts all work on either hover, click, tab, touch (on touchscreen) and will return to their original state when you are no longer interacting or click away
+    -   The images on each of the cards used to display the past projects work as expected and launch a modal with further information
+    -   The buttons within the modal work as expected
+    -   Logo in the footer and Navbar both Navigate back tot he top of the home page
+    -   Social links in the footer all work as expected and open in a new tab
+
+-   Thankyou Page
+    -   All Navbar links direct the user where expected
+    -   On smaller screen sizes the Navbar becomes an off canvas Navbar accessible by the buger icon
+    -   The offcanvas Navbar closes when you click away from it or using the X button
+    -   Besides the iPhone issue all Navbar links lead where they are supposed to on the website
+    -   All buttons on the website lead where they are supposed to on the website
+    -   All external links open in a new browser tab
+    -   Phone tel: link on the page work as expected
+    -   Logo in the footer and Navbar both Navigate back tot he top of the home page
+    -   Social links in the footer all work as expected and open in a new tab
+
+
+
+
+The site has altogether in one way or another been used and tested on the followin devices...
 
 -   Google Pixel 7 - Chrome
 -   HP Elitebook (Windows) - Chrome, Edge and Firefox
