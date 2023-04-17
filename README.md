@@ -219,21 +219,21 @@ The site has altogether in one way or another been used and tested on the follow
 
     1.  As a First Time Visitor, I want to find out further information about the business and be able to determine as early as possible if the business offers the services that I am looking for. 
         -	A short and succinct paragraph right at the top of the homepage outlining what the company does, they should  be able to tell very quickly whether or not the services being offered are what they are looking for, they are then presented with either a button immediately below or a link in the navbar for further information should they want to explor further.
-<img src="./assets/testing/firsttimeuser1.png" alt="Image of homepage hero section">
+    <img src="./assets/testing/firsttimeuser1.png" alt="Image of homepage hero section">
      2.  As a First Time Visitor, I want to be able to navigate the site quickly and easily, it should take as few clicks as possible to find the section of the website I am looking for. 
         -	As well as the Navbar the users are presented with buttons at the bottom of each section leading them to the next section of the website, the logos on the page also take the user back to the home page as users have come to expect in recent times.
-<img src="./assets/testing/firsttimeuser2.png" alt="Image of navbar and about us section">
+    <img src="./assets/testing/firsttimeuser2.png" alt="Image of navbar and about us section">
     3.  As a First Time Visitor, I want social proof to ensure this is a trusted business, this could be in the form of reviews or links to social media accounts where further information may be available from past and existing customers of the business.
         -   The users are presented with many forms of social proof, there is a reviews sections which shows recent reviews as well a link to a trusted review provider where reviews can be authenticated. They are also presented with social media link in the contact us section as well as the footer of the website. There is also a portfolio section where the user can view recent projects the company has worked on for other customers and businesses
-<img src="./assets/testing/firsttimeuser3.png" alt="Image of reviews section">
-<img src="./assets/testing/firsttimeuser4.png" alt="Image of contact details section">
-<img src="./assets/testing/firsttimeuser5.png" alt="Image of portfolio page">
+    <img src="./assets/testing/firsttimeuser3.png" alt="Image of reviews section">
+    <img src="./assets/testing/firsttimeuser4.png" alt="Image of contact details section">
+    <img src="./assets/testing/firsttimeuser5.png" alt="Image of portfolio page">
     4.  As a First Time Visitor, I want to be able to contact the business quickly and easily should I have any further questions that can't be specifically answered by the information on the website.
         -	There are multiple ways the user could contact the company presented through the website. There is a webform where they can submit a message to the company and once submitted they are presented with a 'thank you page' advising when they company will be in touch. If they don't want to wait this page also provides a phone number.
         -	The user is also presented with a contact details section offering further ways to get in touch via phone, email, mail in person or via various social media pages. The social media pages are also present in the footer of the website.
-<img src="./assets/testing/firsttimeuser7.png" alt="Image of contact form section">
-<img src="./assets/testing/firsttimeuser6.png" alt="Image of thank you page">
-<img src="./assets/testing/firsttimeuser4.png" alt="Image of contact details section">
+    <img src="./assets/testing/firsttimeuser7.png" alt="Image of contact form section">
+    <img src="./assets/testing/firsttimeuser6.png" alt="Image of thank you page">
+    <img src="./assets/testing/firsttimeuser4.png" alt="Image of contact details section">
 
 -   #### Returning Visitor Goals
 
