@@ -228,7 +228,7 @@ The site has altogether in one way or another been used and tested on the follow
     <img src="./assets/testing/firsttimeuser3.png" alt="Image of reviews section">
     <img src="./assets/testing/firsttimeuser4.png" alt="Image of contact details section">
     <img src="./assets/testing/firsttimeuser5.png" alt="Image of portfolio page">
-    4.  As a First Time Visitor, I want to be able to contact the business quickly and easily should I have any further questions that can't be specifically answered by the information on the website.
+4.  As a First Time Visitor, I want to be able to contact the business quickly and easily should I have any further questions that can't be specifically answered by the information on the website.
     -	There are multiple ways the user could contact the company presented through the website. There is a webform where they can submit a message to the company and once submitted they are presented with a 'thank you page' advising when they company will be in touch. If they don't want to wait this page also provides a phone number.
     -	The user is also presented with a contact details section offering further ways to get in touch via phone, email, mail in person or via various social media pages. The social media pages are also present in the footer of the website.
     <img src="./assets/testing/firsttimeuser7.png" alt="Image of contact form section">
