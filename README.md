@@ -169,11 +169,11 @@ Extensive testing was carried out throughout the life cycle of this project. As 
 
 -   #### First Time Visitor Goals
 
-    1.  As a First Time Visitor, I want to find out further information about the business and be able to determine as early as possible if the business offers the services that I am looking for. 
+   1.  As a First Time Visitor, I want to find out further information about the business and be able to determine as early as possible if the business offers the services that I am looking for. 
         -   A short and succinct paragraph right at the top of the homepage outlining what the company does, they should  be able to tell very quickly whether or not the services being offered are what they are looking for, they are then presented with either a button immediately below or a link in the navbar for further information should they want to explor further.
 <img src="./assets/testing/firsttimeuser1.png" alt="Image of homepage hero section">
  
-    2.  As a First Time Visitor, I want to be able to navigate the site quickly and easily, it should take as few clicks as possible to find the section of the website I am looking for.
+   2.  As a First Time Visitor, I want to be able to navigate the site quickly and easily, it should take as few clicks as possible to find the section of the website I am looking for.
         -   As well as the Navbar the users are presented with buttons at the bottom of each section leading them to the next section of the website, the logos on the page also take the user back to the home page as users have come to expect in recent times.
 <img src="./assets/testing/firsttimeuser2.png" alt="Image of navbar and about us section">
     3.  As a First Time Visitor, I want social proof to ensure this is a trusted business, this could be in the form of reviews or links to social media accounts where further information may be available from past and existing customers of the business. 
