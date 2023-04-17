@@ -254,9 +254,8 @@ The site has altogether in one way or another been used and tested on the follow
 
     1.  As a Frequent User, I want to keep up to date on any new project the company may have worked on.
         -   Any new projects the company may have worked on can wither be found in the portfolio page, however most users today would check a companies social pages for the most up to date news and so I have ensured these are prominently displayed and easy to find, a future additional feature I would like to see added to the site however would be a news and or blog section so more up to date information can be more easily shared
-<img src="./assets/testing/firsttimeuser5.png" alt="Image of portfolio page">
-<img src="./assets/testing/firsttimeuser4.png" alt="Image of contact details section">
-
+    <img src="./assets/testing/firsttimeuser5.png" alt="Image of portfolio page">
+    <img src="./assets/testing/firsttimeuser4.png" alt="Image of contact details section">
     2.  As a Frequent User, I want to see if any new products or services have or are being launched.
         -   The services section can easily be found on the main page of the website and can be navigated from to from the Navbar, any new products or services would be listed here. However as with point one for frequent users 'pre-launch' information nowadays is usually more prominent on a companies social media pages, but again a future implementation could be a blog or news section where this information could be shared also. 
 <img src="./assets/testing/firsttimeuser8.png" alt="Image of services section">
